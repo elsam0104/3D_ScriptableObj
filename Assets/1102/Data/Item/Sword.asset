@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db788386ead7373418bf7d8f8d1d2a4c, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemType: 3
+  flagStackable: 0
+  itemIcon: {fileID: 21300000, guid: 4ee52fd5724d18243b84a6cb8841017b, type: 3}
+  objModelPrefab: {fileID: 0}
+  boneNameLists: []
+  itemData:
+    item_id: 1
+    item_name: 
+    ability:
+    - characterStack: 1
+      valStack: 3
+      min: 0
+      max: 4
+    - characterStack: 2
+      valStack: 1
+      min: 0
+      max: 6
+  itemSummery: 

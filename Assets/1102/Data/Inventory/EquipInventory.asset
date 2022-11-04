@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317be350909ef924ea7397c63bbbebcf, type: 3}
+  m_Name: EquipInventory
+  m_EditorClassIdentifier: 
+  itemDBObj: {fileID: 11400000, guid: 2ce3e8ee951f25940acfbc1d97377177, type: 2}
+  type: 1
+  inventory:
+    inventorySlots:
+    - itemTypes: 00000000
+      item:
+        item_id: -1
+        item_name: 
+        ability: []
+      itemCnt: 0
+    - itemTypes: 01000000
+      item:
+        item_id: -1
+        item_name: 
+        ability: []
+      itemCnt: 0
+    - itemTypes: 02000000
+      item:
+        item_id: 0
+        item_name: 
+        ability:
+        - characterStack: 0
+          valStack: 0
+          min: 0
+          max: 3
+        - characterStack: 2
+          valStack: 0
+          min: 0
+          max: 4
+      itemCnt: 0
+    - itemTypes: 03000000
+      item:
+        item_id: 1
+        item_name: 
+        ability:
+        - characterStack: 1
+          valStack: 2
+          min: 0
+          max: 4
+        - characterStack: 2
+          valStack: 0
+          min: 0
+          max: 6
+      itemCnt: 0

@@ -81,6 +81,12 @@ public class InventoryObj :ScriptableObject
         }
     }
 
+    public void Clear()
+    {
+        inventory.Clear();
+    }
+
     //사용한 아이템 효과 발동 함수
     public Action<ItemObj> OnUSeItemObject;
+
 }

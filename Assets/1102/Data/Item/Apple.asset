@@ -10,19 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db788386ead7373418bf7d8f8d1d2a4c, type: 3}
-  m_Name: Gun
+  m_Name: Apple
   m_EditorClassIdentifier: 
-  itemType: 2
-  flagStackable: 0
-  itemIcon: {fileID: 0}
+  itemType: 1
+  flagStackable: 1
+  itemIcon: {fileID: 21300000, guid: da7129ed6a246f048a49d8d97de2d2d4, type: 3}
   objModelPrefab: {fileID: 0}
   boneNameLists: []
   itemData:
-    item_id: 0
+    item_id: 3
     item_name: 
     ability:
-    - characterStack: 0
-      valStack: 0
+    - characterStack: 1
+      valStack: 2
       min: 0
-      max: 0
-  itemSummery: vcf
+      max: 7
+    - characterStack: 0
+      valStack: 1
+      min: 0
+      max: 3
+  itemSummery: 

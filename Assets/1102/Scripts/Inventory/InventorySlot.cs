@@ -53,7 +53,7 @@ public class InventorySlot
 
     public bool GetFlagEquipSlot(ItemObj itemObj)
     {
-        if (itemTypes.Length <= 0 || item.item_id < 0 || itemObj == null)
+        if (itemTypes.Length <= 0 || itemObj == null || itemObj.itemData.item_id < 0 )
             return true;
         foreach (ItemType itemType in itemTypes)
         {
